@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Javascript Task</title>
+</head>
+<body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+    <div class="container">
+        <div class="row">
+           <div class="col-md-6">
+               <input type="text" class="form-control student-inputs mt-2" placeholder="name">
+               <input type="text" class="form-control student-inputs mt-2" placeholder="surname">
+               <input type="text" class="form-control student-inputs mt-2" placeholder="email">
+               <input type="text" class="form-control student-inputs mt-2" placeholder="phone">
+               <input type="text" class="form-control student-inputs mt-2" placeholder="age">
+               <button class="btn btn-primary mt-2" onclick="onclickValues()">Save</button>
+           </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Surname</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Age</th>
+                  </tr>
+                </thead>
+                <tbody class="students-list">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>mark@mail.ru</td>
+                    <td>055 555 55 55</td>
+                    <td>18</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="js/task.js"></script>
+</body>
+</html>
